@@ -1,0 +1,65 @@
+body {
+  background-image: -webkit-linear-gradient(left, #2c0202, #00022e);
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  color: white;
+}
+
+form input {
+  margin-left: 30%;
+  margin-top: 300px;
+}
+
+#hex-color {
+  text-align: center;
+  color: white;
+}
+
+.custom {
+  color: white;
+  font-size: 10px;
+  padding: 0px;
+  text-align: center;
+}
+
+.custom a {
+  color: #797373;
+}
+
+.custom a:hover {
+  color: white;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+#saveas {
+  color: white;
+}
+
+#saveas2 {
+  color: white;
+}
+
+#saveas2:Hover {
+  color: #524e4e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  form input {
+    margin-left: 24%;
+    margin-top: 305px;
+  }
+  .custom {
+    margin-top: 9vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
