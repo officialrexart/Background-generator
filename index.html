@@ -9,50 +9,25 @@
 </head>
 <body id="body">
   
-    <main class="container">
-        <div class="container">  
-            <h3> COUNTER APP</h3>
-        </div>
-    
+    <div class="container">  
+      <h3> Background generator app</h3>
+    </div>
+    <form class="container">
+        <input id="color1" type="color" oninput="load()">
+        <input id="color2" type="color" value="red" oninput="load()">
+        <p id="hex-color">Left:- #2c0202 , Right:- #00022e</p>
 
-        <section class="number">
-            <div>
-                <p id="textcontent">0</p>
-            </div>
-        </section>
-
-<Section class="button-section">
-         <div>
-            <button  class="btn" onClick="decrease()">Decrease</button>  
-
-            <button   class="btn" onclick="resett()" >Reset</button>
-
-             <button class="btn"  onClick="increase()">Increase</button> 
-
-         </div>
-</Section>
-
-
-</main>
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="container">
-
-
-
-
-
-
+        <p id="saveas">Save Background as </p>
+       <select required>
+             <option>   <p></p>  </option>
+           <option>   <p>Jpg</p>  </option>
+           <option>   <p>png</p>  </option>
+           <option>   <p>svg</p>  </option>
+        </select>
+        <p id="saveas2" onclick="save()">Export</p>
+        <p id="save-alert"></p>
+    </form>
+<footer>
 
    <p class="custom" >  <a href="#"> Coded by Rex</a> </p>
 </footer>
